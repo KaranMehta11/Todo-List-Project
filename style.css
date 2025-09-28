@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.addtask {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.addtask input {
+  padding: 10px 20px;
+  border: solid black 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.addtask button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: solid black 2px;
+  color: black;
+  font-family: monospace;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+#random {
+  border: solid black 2px;
+  margin-left: 410px;
+  margin-right: 410px;
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#random div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#random h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+#random div button {
+  padding: 3px 7px;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
